@@ -203,6 +203,32 @@ jQuery(function ($) {
         }
     });
 
+    $(".services-carousel").owlCarousel({
+        items: 1,
+        dots: false,
+        margin:0,
+        nav: true,
+        navText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>"
+        ],
+        loop:true,
+        autoplay: true,
+        autoplayHoverPause:true,
+        responsiveClass:true,
+        responsive: {
+            992: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            320: {
+                items: 1
+            }
+        }
+    });
+
      /* ===================================
        Revolution Slider
        ====================================== */
@@ -213,6 +239,7 @@ jQuery(function ($) {
         sliderLayout: "fullscreen",
         scrollbarDrag: "true",
         dottedOverlay: "none",
+        delay: 5000,
         navigation: {
             keyboardNavigation: "off",
             keyboard_direction: "horizontal",

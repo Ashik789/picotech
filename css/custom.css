@@ -27,12 +27,44 @@ footer .contact-box a{color: #535353;}
 .header-appear .side-menu.center .color-white {color: #fff;}
 .split-container-setting.style-three {max-width: 450px;  margin: 0 auto;}
 .tp-mask-wrap{overflow: visible !important;}
+.whatsupp{position: fixed; bottom: 20px; left: 10px; width: 40px; height: 40px; line-height: 40px; text-align: center;
+background: #25d366; color: #fff; border-radius: 50%; z-index: 2002;}
+.whatsupp i{color: #fff; font-size: 20px;}
+.whatsupp:hover{ transform: scale(1.1); box-shadow: 0 2px 8px rgb(0 0 0 / 9%), 0 4px 40px rgb(0 0 0 / 24%); transition: all .2s ease-in-out;}
+.zero{margin: 0px; padding: 0px;}
+.services-carousel .owl-nav .owl-prev,
+.services-carousel .owl-nav .owl-next {background: #ffffff none repeat scroll 0 0;-webkit-border-radius: 50%;-moz-border-radius: 50%; border-radius: 50%;
+    -moz-box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+    -webkit-box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+    -o-box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+    box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+    color: #59c5d2; font-size: 20px; line-height: 30px; height: 30px; left: 30px; margin-top: -23px; padding: 0; position: absolute;
+    text-align: center; top: 50%;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    width: 30px; opacity: 0;
+}
+.services-carousel .owl-nav .owl-next{left: auto; right: 30px;}
+.services-carousel:hover .owl-nav .owl-prev,
+.services-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+}
+.services-carousel .main-title img{max-width: 100px; margin-bottom: 20px;}
+.owl-carousel { touch-action: manipulation; }
+
 
 @media screen and (max-width: 767px){
     .line-1{margin: 0 auto;}
     .line-2{margin: 0 auto; margin-bottom: 25px;}
-    .style-three .main-title{text-align: left;} 
+    .style-three .main-title{text-align: center;} 
+    .services-carousel .main-title img{margin: 0 auto; margin-bottom: 20px;}
     .team-classic.owl-team .item{margin-bottom: 0px;}
+    .our-service .style-three p{text-align: center;}
+    .services-carousel .owl-nav .owl-prev{opacity: 1; left: 10px;}
+    .services-carousel .owl-nav .owl-next{right: 10px; opacity: 1;}
     
 }
 
