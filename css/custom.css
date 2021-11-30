@@ -52,7 +52,7 @@ background: #25d366; color: #fff; border-radius: 50%; z-index: 2002;}
 .services-carousel:hover .owl-nav .owl-next {
     opacity: 1;
 }
-.services-carousel .main-title img{max-width: 100px; margin-bottom: 20px;}
+.our-service .main-title img{max-width: 100px; margin-bottom: 20px;}
 .owl-carousel { touch-action: manipulation; }
 
 
